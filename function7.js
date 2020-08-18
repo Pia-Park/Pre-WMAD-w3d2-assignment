@@ -3,8 +3,8 @@ let brokenSentence = ['I', 'am', 'a', 'broken', 'sentence'];
 
 
 
-const joinSentence= function () {
-
+const joinSentence= function (str) {
+    console.log(str.join(""));
 };
 
 joinSentence(brokenSentence);
